@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidFirst</string>
+    <string name="action_settings">Settings</string>
+    <string name="insa">Hello</string>
+    <string name="anyoung">HANWONHEE!!!!</string>
+    <string name="title_activity_list_view_test">ListViewTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_list_add_del">ListAddDel</string>
+    <string name="title_activity_list_icon_text">ListIconText</string>
+    <string name="title_activity_adfdefefef">Adfdefefef</string>
+    <string name="title_activity_list_of_views">ListOfViews</string>
+    <string name="title_activity_dialog_test">DialogTest</string>
+    <string name="title_activity_select_dialog3">SelectDialog3</string>
+
+    <string-array name="foods">
+        <item>짜장면</item>
+        <item>우동</item>
+        <item>짬뽕</item>
+        <item>탕수육</item>
+    </string-array>
+
+    <string name="title_activity_order_dialog">OrderDialog</string>
+    <string name="title_activity_comm_acticity">CommActicity</string>
+    <string name="title_activity_act_edit">ActEdit</string>
+    <string name="title_activity_call_other">CallOther</string>
+    <string name="title_activity_tab_test">TabTest</string>
+
+</resources>

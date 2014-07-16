@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtsample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample"
+        android:textColor="#ff000000"
+        android:textSize="32sp" />
+
+    <RadioGroup
+        android:id="@+id/ColorGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/Red"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@id/Red"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Red" />
+
+        <RadioButton
+            android:id="@+id/Green"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Green" />
+
+        <RadioButton
+            android:id="@+id/Blue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Blue" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/chkwhiteback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="흰색 배경" >
+    </CheckBox>
+
+    <ToggleButton
+        android:id="@+id/MyToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textOff="안선택"
+        android:textOn="선택"
+        android:textSize="20px" />
+
+</LinearLayout>
